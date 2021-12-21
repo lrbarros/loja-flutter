@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "783143828662",
+    "project_id": "loja-docegab",
+    "storage_bucket": "loja-docegab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:783143828662:android:c50ac7f58323f126a93a17",
+        "android_client_info": {
+          "package_name": "br.com.lrbarros.loja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "783143828662-6tmk7juvfi9fm0553dk757qt80h9u25s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADsWRXHOVnAC5XqLG4y_IAFC3ESoj_I8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "783143828662-6tmk7juvfi9fm0553dk757qt80h9u25s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
