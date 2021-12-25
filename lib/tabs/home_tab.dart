@@ -24,6 +24,7 @@ class HomeTab extends StatelessWidget {
         CustomScrollView(
           slivers: [
             SliverAppBar(
+
               floating: true,
               snap: true,
               backgroundColor: Colors.transparent,
@@ -54,8 +55,8 @@ class HomeTab extends StatelessWidget {
                       crossAxisSpacing: 1.0,
                       staggeredTileBuilder: (int index)  {
 
-                        return  StaggeredTile.count(snapshot.data.docs.asMap()[index]['x'],
-                                                        double.parse(snapshot.data.docs.asMap()[index]['y'].toString())
+                        return  StaggeredTile.count(snapshot.data?.docs.asMap()[index]?['x'],
+                                                        double.parse(snapshot.data!.docs.asMap()[index]!['y'].toString())
                                                     );
 
                       }
@@ -63,10 +64,10 @@ class HomeTab extends StatelessWidget {
                       itemBuilder: (BuildContext context, int index) {
                         return FadeInImage.memoryNetwork(
                             placeholder: kTransparentImage,
-                            image: snapshot.data.docs.asMap()[index]['image'],
+                            image: snapshot.data!.docs.asMap()[index]!['image'],
                             fit: BoxFit.cover,);
                       },
-                      itemCount: snapshot.data.docs.length
+                      itemCount: snapshot.data!.docs.length
                   );
 
 
