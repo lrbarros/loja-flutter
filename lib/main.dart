@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:loja/screens/home_screen.dart';
 
 Future<void> main() async {
+
   runApp(MyApp());
   await Firebase.initializeApp();
 }
